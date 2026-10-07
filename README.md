@@ -122,10 +122,12 @@ O modelo semântico `POC_Energia_Modelo_Semantico` foi criado em modo **Direct L
 
 ## Próximos passos
 
-- Desenvolver o relatório analítico em Power BI.
-- Adicionar indicadores e visualizações de consumo, faturação e pedidos.
-- Implementar atualização e orquestração através de pipelines.
-- Explorar ingestão e análise de eventos em tempo real.
+- Implementar segurança ao nível da linha — RLS;
+- Automatizar a atualização e a orquestração dos dados;
+- Adicionar monitorização da execução dos notebooks;
+- Integrar novos ficheiros através de cargas incrementais;
+- Criar testes adicionais de qualidade de dados;
+- Avaliar a integração do projeto com Git no Microsoft Fabric.
 
 ## Autoria
 
