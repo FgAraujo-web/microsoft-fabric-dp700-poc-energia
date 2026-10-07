@@ -82,6 +82,40 @@ O modelo semântico `POC_Energia_Modelo_Semantico` foi criado em modo **Direct L
 - 12 medidas DAX;
 - indicadores de consumo, faturação, pedidos, clientes e unidades.
 
+## Relatório analítico em Power BI
+
+Foi desenvolvido o relatório `POC_Energia_Relatorio_Analitico`, ligado ao modelo semântico em modo Direct Lake.
+
+O relatório contém duas páginas:
+
+### Visão Geral
+
+Apresenta os principais indicadores da solução:
+
+- total faturado;
+- consumo total em kWh;
+- número de clientes;
+- número de unidades;
+- número de pedidos;
+- evolução mensal do consumo;
+- evolução mensal da faturação.
+
+![Visão Geral do relatório](imagens/relatorio-visao-geral.png)
+
+### Análise Operacional
+
+Permite analisar:
+
+- consumo total por concelho;
+- número de pedidos por estado;
+- resultados filtrados por ano, concelho e segmento de cliente.
+
+![Análise Operacional](imagens/relatorio-analise-operacional.png)
+
+Os filtros e as interações entre os elementos visuais foram testados na Vista de leitura.
+
+[Consultar o relatório em PDF](POC_Energia_Relatorio_Analitico.pdf)
+
 ## Conteúdo do repositório
 
 ### Notebooks
@@ -110,6 +144,10 @@ O modelo semântico `POC_Energia_Modelo_Semantico` foi criado em modo **Direct L
 8. Validar as dimensões, os factos e os registos rejeitados.
 9. Criar o modelo semântico Direct Lake sobre as tabelas Gold.
 10. Configurar as relações e medidas DAX descritas no guia do modelo semântico.
+11. 11. Criar um relatório Power BI ligado ao modelo semântico.
+12. Construir as páginas Visão Geral e Análise Operacional.
+13. Configurar os filtros por ano, concelho e segmento.
+14. Validar as interações e exportar o relatório para PDF.
 
 ## Principais aprendizagens
 
@@ -119,6 +157,9 @@ O modelo semântico `POC_Energia_Modelo_Semantico` foi criado em modo **Direct L
 - Preservação de registos rejeitados para auditoria e melhoria da qualidade.
 - Construção de dimensões partilhadas para clientes, unidades e datas.
 - Preparação de um modelo semântico otimizado para exploração em Power BI.
+- Construção de indicadores e visualizações sobre um modelo semântico Direct Lake.
+- Configuração de filtros interativos para análise temporal, geográfica e por segmento.
+- Validação e exportação de relatórios Power BI no Microsoft Fabric.
 
 ## Próximos passos
 
