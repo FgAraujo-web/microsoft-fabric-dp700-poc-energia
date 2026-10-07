@@ -4,7 +4,7 @@ Prova de conceito de engenharia e análise de dados desenvolvida no **Microsoft 
 
 O projeto simula uma solução de dados para o setor da energia, utilizando dados inteiramente fictícios sobre clientes, unidades de consumo, consumos, faturação e pedidos de serviço.
 
-> **Estado do projeto:** engenharia de dados e modelo semântico concluídos. Relatório Power BI em desenvolvimento.
+> **Estado do projeto:** engenharia de dados e modelo semântico concluídos. O relatório analítico em Power BI foi concluído e validado. A solução apresenta uma visão geral dos principais indicadores e uma página de análise operacional com filtros interativos por ano, concelho e segmento.
 
 ## Objetivos
 
